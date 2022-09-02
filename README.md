@@ -15,7 +15,7 @@ During training the model considers a batch of experiences and generates a predi
 ## Training
 To train the agent run the script q_agent_train.py. By default the agent plays 15,000 training games, for better results increase the number of training games.
 
-The agent learns to play Breakout, but any Atari 2600 game available in gym is compatible. To train with another game replace 'BreakoutNoFrameSip-v4' in the line shown below with the name of a different game supported by gym (make sure to use the no frame skip version of your chosen game):
+The agent learns to play Breakout, but any Atari 2600 game available in gym is compatible. To train with another game replace 'BreakoutNoFrameSip-v4' in the line shown below with the name of a different game supported by gym (make sure to use the no frame skip version of your chosen game): <br />
 ![image](https://user-images.githubusercontent.com/34168073/188141947-8db1eb60-d5fd-4c1a-a07a-5f26c1cb7908.png)
 
 The state of the model is updated after each time step of each training game and is saved every 50 training games. 

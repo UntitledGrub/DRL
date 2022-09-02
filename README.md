@@ -24,4 +24,4 @@ Run the script from the command line and append the argument --state-dict traine
 ## Results
 ![markfigure](https://user-images.githubusercontent.com/34168073/188142711-98517dc2-a1e1-4282-ab64-225a8d72ba1b.png)
 
-The agent steadily imporves over the first 12,000 training games, but learning becomes more erratic thereafter. 
+The agent steadily imporves over the first 8,000 training games, but learning becomes more erratic thereafter. 
